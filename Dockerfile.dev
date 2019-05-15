@@ -7,7 +7,7 @@ WORKDIR /app
 
 # Copying requirements
 COPY requirements.txt .
-COPY . .
+COPY ./app .
 
 RUN apk add --no-cache --virtual .build-deps \
     ca-certificates gcc postgresql-dev linux-headers musl-dev \

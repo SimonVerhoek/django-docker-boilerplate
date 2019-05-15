@@ -1,6 +1,6 @@
 version: '3'
 services:
-  yddt:
+  default_app:
     container_name: app
     build:
       context: .
